@@ -1,0 +1,413 @@
+# number of data elements
+408
+# offset bytes value
+0 2 0x8002 // magic 
+2 2 0x700 // id
+4 4 0x4e // scaleBegin 78
+8 4 0x54 // scaleEnd 84
+12 4 0x5a // textureBegin 90
+16 4 0x120 // pointsBegin 288
+20 4 0x1a0 // vertexBegin 416
+24 4 0xfc // textureEnd 252
+28 4 0x204 // vertexEnd 516
+32 4 0x344 // fileEnd 836
+36 4 0x344 // fileEnd2 836
+40 4 0x0 // always0 
+44 4 0x18000 // always1 
+48 2 0x1 // unknown? 
+50 2 0x6 // size 
+52 2 0x80 // size8 
+54 2 0xd // unknown data squence possible importance 
+56 2 0xffff // unknown data squence possible importance 
+58 2 0x7fff // unknown data squence possible importance 
+60 2 0x3ae // unknown data squence possible importance 
+62 2 0x0 // unknown data squence possible importance 
+64 2 0x0 // unknown data squence possible importance 
+66 2 0xaaa // unknown data squence possible importance 
+68 2 0x30 // unknown data squence possible importance 
+70 2 0x30 // unknown data squence possible importance 
+72 2 0x3800 // unknown data squence possible importance 
+74 2 0x68 // unknown data squence possible importance 
+76 2 0x68 // unknown data squence possible importance 
+78 2 0xc80 // scale[0] 
+80 2 0xdac // scale[1] 
+82 2 0x0 // scale[2] 
+84 2 0xe0d // Unknown DANGER! 
+86 2 0xc0f // Unknown DANGER! 
+88 2 0xff // Unknown DANGER! 
+90 2 0x0 // Texture Cmd numl
+92 2 0x1f // Texture Cmd cmd
+94 2 0x64 // Texture Cmd[0] Arg[0] = Texture
+96 2 0x3 // Texture Cmd[0] Arg[1] = Rotation
+98 2 0xffff // Texture Cmd[0] Arg[2] = Vertex
+100 2 0x2 // Texture Cmd[0] Arg[3] = Vertex
+102 2 0x3 // Texture Cmd[0] Arg[4] = Vertex
+104 2 0xfffc // Texture Cmd[0] Arg[5] = Vertex
+106 2 0x0 // Texture Cmd[0] Arg[6] = Terminator
+108 2 0x1 // Texture Cmd numl
+110 2 0x1f // Texture Cmd cmd
+112 2 0xf5 // Texture Cmd[1] Arg[0] = Texture
+114 2 0x3 // Texture Cmd[1] Arg[1] = Rotation
+116 2 0xfffd // Texture Cmd[1] Arg[2] = Vertex
+118 2 0xfffb // Texture Cmd[1] Arg[3] = Vertex
+120 2 0x6 // Texture Cmd[1] Arg[4] = Vertex
+122 2 0x7 // Texture Cmd[1] Arg[5] = Vertex
+124 2 0x0 // Texture Cmd[1] Arg[6] = Terminator
+126 2 0x2 // Texture Cmd numl
+128 2 0x1f // Texture Cmd cmd
+130 2 0x64 // Texture Cmd[2] Arg[0] = Texture
+132 2 0x3 // Texture Cmd[2] Arg[1] = Rotation
+134 2 0xfff8 // Texture Cmd[2] Arg[2] = Vertex
+136 2 0xfff7 // Texture Cmd[2] Arg[3] = Vertex
+138 2 0x1 // Texture Cmd[2] Arg[4] = Vertex
+140 2 0xa // Texture Cmd[2] Arg[5] = Vertex
+142 2 0x0 // Texture Cmd[2] Arg[6] = Terminator
+144 2 0x3 // Texture Cmd numl
+146 2 0x1f // Texture Cmd cmd
+148 2 0xf5 // Texture Cmd[3] Arg[0] = Texture
+150 2 0x3 // Texture Cmd[3] Arg[1] = Rotation
+152 2 0xfffa // Texture Cmd[3] Arg[2] = Vertex
+154 2 0xfff5 // Texture Cmd[3] Arg[3] = Vertex
+156 2 0x8 // Texture Cmd[3] Arg[4] = Vertex
+158 2 0xc // Texture Cmd[3] Arg[5] = Vertex
+160 2 0x0 // Texture Cmd[3] Arg[6] = Terminator
+162 2 0x4 // Texture Cmd numl
+164 2 0x1f // Texture Cmd cmd
+166 2 0xf6 // Texture Cmd[4] Arg[0] = Texture
+168 2 0x3 // Texture Cmd[4] Arg[1] = Rotation
+170 2 0xfff3 // Texture Cmd[4] Arg[2] = Vertex
+172 2 0xe // Texture Cmd[4] Arg[3] = Vertex
+174 2 0xf // Texture Cmd[4] Arg[4] = Vertex
+176 2 0xfff0 // Texture Cmd[4] Arg[5] = Vertex
+178 2 0x0 // Texture Cmd[4] Arg[6] = Terminator
+180 2 0x5 // Texture Cmd numl
+182 2 0x1f // Texture Cmd cmd
+184 2 0xf6 // Texture Cmd[5] Arg[0] = Texture
+186 2 0x3 // Texture Cmd[5] Arg[1] = Rotation
+188 2 0xffef // Texture Cmd[5] Arg[2] = Vertex
+190 2 0x12 // Texture Cmd[5] Arg[3] = Vertex
+192 2 0x13 // Texture Cmd[5] Arg[4] = Vertex
+194 2 0xffec // Texture Cmd[5] Arg[5] = Vertex
+196 2 0x0 // Texture Cmd[5] Arg[6] = Terminator
+198 2 0x6 // Texture Cmd numl
+200 2 0x1f // Texture Cmd cmd
+202 2 0xf6 // Texture Cmd[6] Arg[0] = Texture
+204 2 0x3 // Texture Cmd[6] Arg[1] = Rotation
+206 2 0x15 // Texture Cmd[6] Arg[2] = Vertex
+208 2 0x10 // Texture Cmd[6] Arg[3] = Vertex
+210 2 0xffea // Texture Cmd[6] Arg[4] = Vertex
+212 2 0xffee // Texture Cmd[6] Arg[5] = Vertex
+214 2 0x0 // Texture Cmd[6] Arg[6] = Terminator
+216 2 0x7 // Texture Cmd numl
+218 2 0x1f // Texture Cmd cmd
+220 2 0xf6 // Texture Cmd[7] Arg[0] = Texture
+222 2 0x3 // Texture Cmd[7] Arg[1] = Rotation
+224 2 0xffe9 // Texture Cmd[7] Arg[2] = Vertex
+226 2 0x14 // Texture Cmd[7] Arg[3] = Vertex
+228 2 0x18 // Texture Cmd[7] Arg[4] = Vertex
+230 2 0xfff2 // Texture Cmd[7] Arg[5] = Vertex
+232 2 0x0 // Texture Cmd[7] Arg[6] = Terminator
+234 2 0x8 // Texture Cmd numl
+236 2 0x1f // Texture Cmd cmd
+238 2 0xf0 // Texture Cmd[8] Arg[0] = Texture
+240 2 0x3 // Texture Cmd[8] Arg[1] = Rotation
+242 2 0x17 // Texture Cmd[8] Arg[2] = Vertex
+244 2 0xd // Texture Cmd[8] Arg[3] = Vertex
+246 2 0xffeb // Texture Cmd[8] Arg[4] = Vertex
+248 2 0x11 // Texture Cmd[8] Arg[5] = Vertex
+250 2 0x0 // Texture Cmd[8] Arg[6] = Terminator
+252 2 0x1 // unknown (always 1)[0] 
+254 2 0x0 // unknown (always 0)[0] 
+256 2 0x1 // unknown (always 1)[1] 
+258 2 0x0 // unknown (always 0)[1] 
+260 2 0x1 // unknown (always 1)[2] 
+262 2 0x0 // unknown (always 0)[2] 
+264 2 0x1 // unknown (always 1)[3] 
+266 2 0x0 // unknown (always 0)[3] 
+268 2 0x1 // unknown (always 1)[4] 
+270 2 0x0 // unknown (always 0)[4] 
+272 2 0x1 // unknown (always 1)[5] 
+274 2 0x0 // unknown (always 0)[5] 
+276 2 0x1 // unknown (always 1)[6] 
+278 2 0x0 // unknown (always 0)[6] 
+280 2 0x1 // unknown (always 1)[7] 
+282 2 0x0 // unknown (always 0)[7] 
+284 2 0x1 // unknown (always 1)[8] 
+286 2 0x0 // unknown (always 0)[8] 
+288 2 0x4 // pt[0].x 
+290 2 0x84 // pt[0].y 
+292 2 0x0 // pt[0].z 
+294 2 0x0 // data padding 
+296 2 0x4 // pt[1].x 
+298 2 0x4 // pt[1].y 
+300 2 0x0 // pt[1].z 
+302 2 0x0 // data padding 
+304 2 0x84 // pt[2].x 
+306 2 0x4 // pt[2].y 
+308 2 0x0 // pt[2].z 
+310 2 0x0 // data padding 
+312 2 0x84 // pt[3].x 
+314 2 0x84 // pt[3].y 
+316 2 0x0 // pt[3].z 
+318 2 0x0 // data padding 
+320 2 0x8 // pt[4].x 
+322 2 0x84 // pt[4].y 
+324 2 0x68d // pt[4].z 
+326 2 0x0 // data padding 
+328 2 0x8 // pt[5].x 
+330 2 0x4 // pt[5].y 
+332 2 0x68d // pt[5].z 
+334 2 0x0 // data padding 
+336 2 0x88 // pt[6].x 
+338 2 0x4 // pt[6].y 
+340 2 0x68d // pt[6].z 
+342 2 0x0 // data padding 
+344 2 0x88 // pt[7].x 
+346 2 0x84 // pt[7].y 
+348 2 0x68d // pt[7].z 
+350 2 0x0 // data padding 
+352 2 0x8000 // pt[8].x 
+354 2 0x0 // pt[8].y 
+356 2 0x68d // pt[8].z 
+358 2 0x0 // data padding 
+360 2 0x8001 // pt[9].x 
+362 2 0x0 // pt[9].y 
+364 2 0x68d // pt[9].z 
+366 2 0x0 // data padding 
+368 2 0x8002 // pt[10].x 
+370 2 0x0 // pt[10].y 
+372 2 0x68d // pt[10].z 
+374 2 0x0 // data padding 
+376 2 0x8003 // pt[11].x 
+378 2 0x0 // pt[11].y 
+380 2 0x68d // pt[11].z 
+382 2 0x0 // data padding 
+384 2 0x8004 // pt[12].x 
+386 2 0x4 // pt[12].y 
+388 2 0xaec // pt[12].z 
+390 2 0x0 // data padding 
+392 2 0x8005 // pt[13].x 
+394 2 0x4 // pt[13].y 
+396 2 0xaec // pt[13].z 
+398 2 0x0 // data padding 
+400 2 0x8006 // pt[14].x 
+402 2 0x4 // pt[14].y 
+404 2 0xaec // pt[14].z 
+406 2 0x0 // data padding 
+408 2 0x8007 // pt[15].x 
+410 2 0x4 // pt[15].y 
+412 2 0xaec // pt[15].z 
+414 2 0x0 // data padding 
+416 2 0x0 // vertext data[0] (0 -> 0) 
+418 2 0x0 // vertex data padding 
+420 2 0x800 // vertext data[1] (0 -> 8) 
+422 2 0x0 // vertex data padding 
+424 2 0x300 // vertext data[2] (0 -> 3) 
+426 2 0x0 // vertex data padding 
+428 2 0xb03 // vertext data[3] (3 -> 11) 
+430 2 0x0 // vertex data padding 
+432 2 0xb08 // vertext data[4] (8 -> 11) 
+434 2 0x0 // vertex data padding 
+436 2 0x302 // vertext data[5] (2 -> 3) 
+438 2 0x0 // vertex data padding 
+440 2 0xa02 // vertext data[6] (2 -> 10) 
+442 2 0x0 // vertex data padding 
+444 2 0xb0a // vertext data[7] (10 -> 11) 
+446 2 0x0 // vertex data padding 
+448 2 0x901 // vertext data[8] (1 -> 9) 
+450 2 0x0 // vertex data padding 
+452 2 0x100 // vertext data[9] (0 -> 1) 
+454 2 0x0 // vertex data padding 
+456 2 0x908 // vertext data[10] (8 -> 9) 
+458 2 0x0 // vertex data padding 
+460 2 0x201 // vertext data[11] (1 -> 2) 
+462 2 0x0 // vertex data padding 
+464 2 0xa09 // vertext data[12] (9 -> 10) 
+466 2 0x0 // vertex data padding 
+468 2 0x706 // vertext data[13] (6 -> 7) 
+470 2 0x0 // vertex data padding 
+472 2 0xe06 // vertext data[14] (6 -> 14) 
+474 2 0x0 // vertex data padding 
+476 2 0xf0e // vertext data[15] (14 -> 15) 
+478 2 0x0 // vertex data padding 
+480 2 0xf07 // vertext data[16] (7 -> 15) 
+482 2 0x0 // vertex data padding 
+484 2 0x504 // vertext data[17] (4 -> 5) 
+486 2 0x0 // vertex data padding 
+488 2 0xc04 // vertext data[18] (4 -> 12) 
+490 2 0x0 // vertex data padding 
+492 2 0xd0c // vertext data[19] (12 -> 13) 
+494 2 0x0 // vertex data padding 
+496 2 0xd05 // vertext data[20] (5 -> 13) 
+498 2 0x0 // vertex data padding 
+500 2 0x704 // vertext data[21] (4 -> 7) 
+502 2 0x0 // vertex data padding 
+504 2 0xf0c // vertext data[22] (12 -> 15) 
+506 2 0x0 // vertex data padding 
+508 2 0x605 // vertext data[23] (5 -> 6) 
+510 2 0x0 // vertex data padding 
+512 2 0xe0d // vertext data[24] (13 -> 14) 
+514 2 0x0 // vertex data padding 
+516 2 0x8 // unknown data[0] 
+518 2 0x14 // unknown data[1] 
+520 2 0x20 // unknown data[2] 
+522 2 0x2c // unknown data[3] 
+524 2 0x90 // unknown data[4] 
+526 2 0x24 // unknown data[5] 
+528 2 0x0 // unknown data[6] 
+530 2 0x6c // unknown data[7] 
+532 2 0x5a // unknown data[8] 
+534 2 0x8000 // unknown data[9] 
+536 2 0x90 // unknown data[10] 
+538 2 0x24 // unknown data[11] 
+540 2 0x36 // unknown data[12] 
+542 2 0x7e // unknown data[13] 
+544 2 0x5a // unknown data[14] 
+546 2 0x8000 // unknown data[15] 
+548 2 0x90 // unknown data[16] 
+550 2 0x36 // unknown data[17] 
+552 2 0x12 // unknown data[18] 
+554 2 0x7e // unknown data[19] 
+556 2 0x48 // unknown data[20] 
+558 2 0x8000 // unknown data[21] 
+560 2 0x90 // unknown data[22] 
+562 2 0x12 // unknown data[23] 
+564 2 0x0 // unknown data[24] 
+566 2 0x6c // unknown data[25] 
+568 2 0x48 // unknown data[26] 
+570 2 0x8000 // unknown data[27] 
+572 2 0x8 // unknown data[28] 
+574 2 0x14 // unknown data[29] 
+576 2 0x20 // unknown data[30] 
+578 2 0x2c // unknown data[31] 
+580 2 0x90 // unknown data[32] 
+582 2 0x24 // unknown data[33] 
+584 2 0x0 // unknown data[34] 
+586 2 0x6c // unknown data[35] 
+588 2 0x5a // unknown data[36] 
+590 2 0x8000 // unknown data[37] 
+592 2 0x90 // unknown data[38] 
+594 2 0x24 // unknown data[39] 
+596 2 0x36 // unknown data[40] 
+598 2 0x7e // unknown data[41] 
+600 2 0x5a // unknown data[42] 
+602 2 0x8000 // unknown data[43] 
+604 2 0x90 // unknown data[44] 
+606 2 0x36 // unknown data[45] 
+608 2 0x12 // unknown data[46] 
+610 2 0x48 // unknown data[47] 
+612 2 0x7e // unknown data[48] 
+614 2 0x8000 // unknown data[49] 
+616 2 0x90 // unknown data[50] 
+618 2 0x12 // unknown data[51] 
+620 2 0x0 // unknown data[52] 
+622 2 0x6c // unknown data[53] 
+624 2 0x48 // unknown data[54] 
+626 2 0x8000 // unknown data[55] 
+628 2 0x8 // unknown data[56] 
+630 2 0x12 // unknown data[57] 
+632 2 0x1c // unknown data[58] 
+634 2 0x26 // unknown data[59] 
+636 2 0x24 // unknown data[60] 
+638 2 0x0 // unknown data[61] 
+640 2 0x6c // unknown data[62] 
+642 2 0x5a // unknown data[63] 
+644 2 0x8000 // unknown data[64] 
+646 2 0x24 // unknown data[65] 
+648 2 0x36 // unknown data[66] 
+650 2 0x7e // unknown data[67] 
+652 2 0x5a // unknown data[68] 
+654 2 0x8000 // unknown data[69] 
+656 2 0x12 // unknown data[70] 
+658 2 0x36 // unknown data[71] 
+660 2 0x48 // unknown data[72] 
+662 2 0x7e // unknown data[73] 
+664 2 0x8000 // unknown data[74] 
+666 2 0x12 // unknown data[75] 
+668 2 0x0 // unknown data[76] 
+670 2 0x6c // unknown data[77] 
+672 2 0x48 // unknown data[78] 
+674 2 0x8000 // unknown data[79] 
+676 2 0x8 // unknown data[80] 
+678 2 0x14 // unknown data[81] 
+680 2 0x20 // unknown data[82] 
+682 2 0x2c // unknown data[83] 
+684 2 0x90 // unknown data[84] 
+686 2 0x24 // unknown data[85] 
+688 2 0x0 // unknown data[86] 
+690 2 0x6c // unknown data[87] 
+692 2 0x5a // unknown data[88] 
+694 2 0x8000 // unknown data[89] 
+696 2 0x90 // unknown data[90] 
+698 2 0x24 // unknown data[91] 
+700 2 0x36 // unknown data[92] 
+702 2 0x7e // unknown data[93] 
+704 2 0x5a // unknown data[94] 
+706 2 0x8000 // unknown data[95] 
+708 2 0x90 // unknown data[96] 
+710 2 0x36 // unknown data[97] 
+712 2 0x12 // unknown data[98] 
+714 2 0x7e // unknown data[99] 
+716 2 0x48 // unknown data[100] 
+718 2 0x8000 // unknown data[101] 
+720 2 0x90 // unknown data[102] 
+722 2 0x12 // unknown data[103] 
+724 2 0x0 // unknown data[104] 
+726 2 0x6c // unknown data[105] 
+728 2 0x48 // unknown data[106] 
+730 2 0x8000 // unknown data[107] 
+732 2 0x8 // unknown data[108] 
+734 2 0x14 // unknown data[109] 
+736 2 0x20 // unknown data[110] 
+738 2 0x2c // unknown data[111] 
+740 2 0x90 // unknown data[112] 
+742 2 0x24 // unknown data[113] 
+744 2 0x0 // unknown data[114] 
+746 2 0x6c // unknown data[115] 
+748 2 0x5a // unknown data[116] 
+750 2 0x8000 // unknown data[117] 
+752 2 0x90 // unknown data[118] 
+754 2 0x24 // unknown data[119] 
+756 2 0x36 // unknown data[120] 
+758 2 0x7e // unknown data[121] 
+760 2 0x5a // unknown data[122] 
+762 2 0x8000 // unknown data[123] 
+764 2 0x90 // unknown data[124] 
+766 2 0x36 // unknown data[125] 
+768 2 0x12 // unknown data[126] 
+770 2 0x48 // unknown data[127] 
+772 2 0x7e // unknown data[128] 
+774 2 0x8000 // unknown data[129] 
+776 2 0x90 // unknown data[130] 
+778 2 0x12 // unknown data[131] 
+780 2 0x0 // unknown data[132] 
+782 2 0x6c // unknown data[133] 
+784 2 0x48 // unknown data[134] 
+786 2 0x8000 // unknown data[135] 
+788 2 0x8 // unknown data[136] 
+790 2 0x12 // unknown data[137] 
+792 2 0x1c // unknown data[138] 
+794 2 0x26 // unknown data[139] 
+796 2 0x24 // unknown data[140] 
+798 2 0x0 // unknown data[141] 
+800 2 0x6c // unknown data[142] 
+802 2 0x5a // unknown data[143] 
+804 2 0x8000 // unknown data[144] 
+806 2 0x24 // unknown data[145] 
+808 2 0x36 // unknown data[146] 
+810 2 0x7e // unknown data[147] 
+812 2 0x5a // unknown data[148] 
+814 2 0x8000 // unknown data[149] 
+816 2 0x12 // unknown data[150] 
+818 2 0x36 // unknown data[151] 
+820 2 0x48 // unknown data[152] 
+822 2 0x7e // unknown data[153] 
+824 2 0x8000 // unknown data[154] 
+826 2 0x12 // unknown data[155] 
+828 2 0x0 // unknown data[156] 
+830 2 0x6c // unknown data[157] 
+832 2 0x48 // unknown data[158] 
+834 2 0x8000 // unknown data[159] 
+836 2 0x0 // Terminator 
+##JAM_TEXTURES 4
+##JAM_FILE 0 0 gamejams\campojam\campo1.jam##JAM_FILE 1 0 gamejams\campojam\box2.jam##JAM_FILE 2 0 gamejams\campojam\box.jam##JAM_FILE 3 0 gamejams\campojam\park_rt.jam
